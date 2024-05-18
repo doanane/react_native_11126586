@@ -1,15 +1,15 @@
-// //Task 1: Creating the processArray function
-// function transformArray(arr) {
-//     let resultArray = [];
-//     for (let element of arr) {
-//         if (element % 2 === 0) {
-//             resultArray.push(element ** 2);
-//         } else {
-//             resultArray.push(element * 3);
-//         }
-//     }
-//     return resultArray;
-// }
+//Task 1: Creating the processArray function
+function transformArray(arr) {
+    let resultArray = [];
+    for (let element of arr) {
+        if (element % 2 === 0) {
+            resultArray.push(element ** 2);
+        } else {
+            resultArray.push(element * 3);
+        }
+    }
+    return resultArray;
+}
 // Task 2: Create the formatArrayStrings function
 
 function styleArrayStrings(texts, nums) {
