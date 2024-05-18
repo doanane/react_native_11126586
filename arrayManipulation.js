@@ -1,3 +1,4 @@
+//Task 1: Creating the processArray function
 function transformArray(arr) {
     let resultArray = [];
     for (let element of arr) {
